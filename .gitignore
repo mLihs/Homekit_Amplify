@@ -9,9 +9,11 @@ GEMINI.md
 .windsurfrules
 .github/copilot-instructions.md
 
+
 # --- Hersteller-Protokolle und Originaldokumente (lokal, nicht pushen) ---
 NAD/
 Rotel/
+amp-rs232-protocols.md
 *.pdf
 
 # --- Build-Artefakte ---

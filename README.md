@@ -343,7 +343,6 @@ the real Arduino headers.
 | `WebPortal.h` | Wi-Fi onboarding, dashboard, web remote, REST API, OTA, factory reset |
 | `firmware/latest.json` | OTA manifest (`version` + `.bin` URL) for the update server |
 | `build_opt.h` | Compile-time flags for bundled libraries |
-| `amp-rs232-protocols.md` | Cross-brand protocol overview and implementation status |
 | `test/` | Host test suite and Arduino stubs |
 
 ## Stability by design
