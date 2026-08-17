@@ -344,8 +344,6 @@ the real Arduino headers.
 | `firmware/latest.json` | OTA manifest (`version` + `.bin` URL) for the update server |
 | `build_opt.h` | Compile-time flags for bundled libraries |
 | `amp-rs232-protocols.md` | Cross-brand protocol overview and implementation status |
-| `Rotel/rs232-serial.md` | Rotel RS232 reference (Gen 1 + Gen 2) |
-| `NAD/` | NAD protocol specs and the verified-model addendum |
 | `test/` | Host test suite and Arduino stubs |
 
 ## Stability by design

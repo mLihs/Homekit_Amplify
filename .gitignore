@@ -9,9 +9,9 @@ GEMINI.md
 .windsurfrules
 .github/copilot-instructions.md
 
-# --- Bedienungsanleitungen / Hersteller-Dokumente ---
-# Protokoll-Referenzen als Markdown bleiben versioniert,
-# die Original-PDFs der Hersteller nicht.
+# --- Hersteller-Protokolle und Originaldokumente (lokal, nicht pushen) ---
+NAD/
+Rotel/
 *.pdf
 
 # --- Build-Artefakte ---
