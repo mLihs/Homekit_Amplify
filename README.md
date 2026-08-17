@@ -236,8 +236,8 @@ Reachable at `http://amplify.local` (or the device IP) once Wi-Fi is set up:
 - **Device address**: rename the mDNS hostname (default base name `Amplify`
   → `amplify.local`; e.g. `martin-remote.local`); the same name is used for
   the setup access point. Stored in NVS, applied after an automatic restart
-- **Firmware update**: check + one-click install (HTTP, `latest.json` with
-  `{"version": "...", "url": "..."}`)
+- **Firmware update**: check + one-click install (HTTP,
+  `http://studioymr.com/amplify/firmware/latest.json`)
 - **Wi-Fi settings** and **factory reset** (clears Wi-Fi, pairing and all
   preferences)
 
@@ -341,6 +341,7 @@ the real Arduino headers.
 | `AmpModels.h` | Model table (brand, protocol, inputs, limits) + NVS helpers |
 | `AmpProtocols.h` | Protocol profiles and generic command sets per dialect |
 | `WebPortal.h` | Wi-Fi onboarding, dashboard, web remote, REST API, OTA, factory reset |
+| `firmware/latest.json` | OTA manifest (`version` + `.bin` URL) for the update server |
 | `build_opt.h` | Compile-time flags for bundled libraries |
 | `amp-rs232-protocols.md` | Cross-brand protocol overview and implementation status |
 | `Rotel/rs232-serial.md` | Rotel RS232 reference (Gen 1 + Gen 2) |

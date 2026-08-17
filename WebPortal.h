@@ -28,8 +28,8 @@
 
 // ---------- Konfiguration ----------
 
-// TODO: eigene Update-URL eintragen (latest.json mit {"version","url"})
-constexpr const char * FW_LATEST_JSON_URL = "http://example.com/amplify-firmware/latest.json";
+// HTTP-OTA: latest.json auf dem eigenen Server (kein HTTPS, spart TLS-Heap)
+constexpr const char * FW_LATEST_JSON_URL = "http://studioymr.com/amplify/firmware/latest.json";
 
 constexpr uint32_t RESET_DELAY_MS      = 750;    // Antwort an Browser rausschieben, dann Reset
 constexpr size_t   PAIRCODE_LEN        = 8;      // HomeKit-Setup-Code: exakt 8 Ziffern

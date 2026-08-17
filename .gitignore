@@ -1,0 +1,29 @@
+# --- KI-/Agent-Dateien (lokal, nicht Teil des Projekts) ---
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.cursor/
+.cursorrules
+.claude/
+.aider*
+.windsurfrules
+.github/copilot-instructions.md
+
+# --- Bedienungsanleitungen / Hersteller-Dokumente ---
+# Protokoll-Referenzen als Markdown bleiben versioniert,
+# die Original-PDFs der Hersteller nicht.
+*.pdf
+
+# --- Build-Artefakte ---
+build/
+test/build/
+*.bin
+*.elf
+*.map
+*.o
+
+# --- Betriebssystem / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
